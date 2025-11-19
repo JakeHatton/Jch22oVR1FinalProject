@@ -21,7 +21,7 @@ public class Scannerfix : MonoBehaviour
     private const string RESOLUTION_PARAMETER_NAME = "Resolution";
 
     [SerializeField] private LayerMask _layerMask;
-    [SerializeField] private PlayerInput playerInput;
+    [SerializeField] private PlayerInput playerinput;
     [SerializeField] private VisualEffect _vfxPrefab;
     [SerializeField] private GameObject _vfxContainer;
     [SerializeField] private Transform _castPoint;
@@ -36,8 +36,8 @@ public class Scannerfix : MonoBehaviour
     private void Start()
     {
         // Get InputAction from PlayerInput
-        _fire = playerInput.actions["Fire"];
-        _changeRadius = playerInput.actions["Scroll"];
+        _fire = playerinput.actions["Fire"];
+        _changeRadius = playerinput.actions["Scroll"];
         _lineRenderer = GetComponent<LineRenderer>();
         _lineRenderer.enabled = false;
         _createNewVFX = true;

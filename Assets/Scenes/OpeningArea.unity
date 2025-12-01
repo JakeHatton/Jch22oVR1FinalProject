@@ -119,7 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1 &26849534
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,8 +674,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e497dc62f8b278438acebd58d747fb7, type: 3}
-=======
->>>>>>> 089a50202c0ae8148f7286d342100ce6c30d1f4c
 --- !u!1 &151758755
 GameObject:
   m_ObjectHideFlags: 0
@@ -2559,7 +2556,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1001 &953006537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2985,8 +2981,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e497dc62f8b278438acebd58d747fb7, type: 3}
-=======
->>>>>>> 089a50202c0ae8148f7286d342100ce6c30d1f4c
 --- !u!4 &1170133846 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4755753219160592784, guid: 7588f25e91832674c8f4fdc8f702fc29, type: 3}
@@ -4441,7 +4435,6 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-<<<<<<< HEAD
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -4996,11 +4989,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5331306175196895494, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
   m_PrefabInstance: {fileID: 441087506}
   m_PrefabAsset: {fileID: 0}
-=======
   serializedVersion: 3
   m_Size: {x: 0.49259546, y: 0.70712084, z: 2.3037825}
   m_Center: {x: 0.00000023841856, y: -0.10981605, z: 0.30792737}
->>>>>>> 089a50202c0ae8148f7286d342100ce6c30d1f4c
 --- !u!1 &1855457754
 GameObject:
   m_ObjectHideFlags: 0
@@ -5109,7 +5100,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1001 &1893051589
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5175,7 +5165,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e497dc62f8b278438acebd58d747fb7, type: 3}
-=======
 --- !u!120 &1894772890
 LineRenderer:
   serializedVersion: 2
@@ -5283,7 +5272,6 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
->>>>>>> 089a50202c0ae8148f7286d342100ce6c30d1f4c
 --- !u!1 &1899646104
 GameObject:
   m_ObjectHideFlags: 0

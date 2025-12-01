@@ -18,7 +18,7 @@ public class Scannerfix : MonoBehaviour
     private LineRenderer _lineRenderer;
 
     private const string TEXTURE_NAME = "PositionsTexture";
-    private const string RESOLUTION_PARAMETER_NAME = "Resolution";
+    private const string RESOLUTION_PARAMETER_NAME1 = "Resolution";
 
     [SerializeField] private LayerMask _layerMask;
     [SerializeField] private PlayerInput playerinput;
@@ -37,8 +37,6 @@ public class Scannerfix : MonoBehaviour
     private void Start()
     {
         // Get InputAction from PlayerInput
-        _fire = playerinput.actions["Fire"];
-        _changeRadius = playerinput.actions["Scroll"];
         _lineRenderer = GetComponent<LineRenderer>();
         _lineRenderer.enabled = false;
         _createNewVFX = true;
@@ -59,15 +57,14 @@ public class Scannerfix : MonoBehaviour
     private void FixedUpdate()
     {
         Scan();
-        ChangeRadius();
     }
-    private void ChangeRadius()
-    {
-        if (_changeRadius.triggered)
-        {
-            _radius = Mathf.Clamp(_radius + _changeRadius.ReadValue<float>() * Time.deltaTime, _minRadius, _maxRadius);
-        }
-    }
+    //private void ChangeRadius()
+   // {
+      //  if (_changeRadius.triggered)
+       // {
+        //    _radius = Mathf.Clamp(_radius + _changeRadius.ReadValue<float>() * Time.deltaTime, _minRadius, _maxRadius);
+       // }
+   // }
     private void Scan()
     {
         // only call if button is pressed
@@ -130,7 +127,7 @@ public class Scannerfix : MonoBehaviour
 
         // create new VFX
         _currentVFX = Instantiate(_vfxPrefab, transform.position, Quaternion.identity, _vfxContainer.transform);
-        _currentVFX.SetUInt(RESOLUTION_PARAMETER_NAME, (uint)resolution);
+        _currentVFX.SetUInt(RESOLUTION_PARAMETER_NAME1, (uint)resolution);
         //_currentVFX.SetInt(PARTICLES_PER_SCAN_PARAMETER_NAME, _pointsPerScan);
 
         // create texture

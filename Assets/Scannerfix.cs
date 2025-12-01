@@ -32,6 +32,7 @@ public class Scannerfix : MonoBehaviour
     [SerializeField] private float _range = 10f;
 
     [SerializeField] private int resolution = 100;
+    private bool _trigger;
 
     private void Start()
     {
@@ -44,6 +45,17 @@ public class Scannerfix : MonoBehaviour
         CreateNewVisualEffect();
         ApplyPositions();
     }
+
+    public void OnTriggerPull()
+    {
+        _trigger = true;
+    }
+
+    public void OnTriggerRelease()
+    {
+        _trigger = false;
+    }
+
     private void FixedUpdate()
     {
         Scan();
@@ -59,8 +71,9 @@ public class Scannerfix : MonoBehaviour
     private void Scan()
     {
         // only call if button is pressed
-        if (_fire.IsPressed())
+        if (_trigger == true)
         {
+            Debug.Log("trigger pressed");
             for (int i = 0; i < _pointsPerScan; i++)
             {
                 // generate random point

@@ -4211,7 +4211,7 @@ MonoBehaviour:
   _layerMask:
     serializedVersion: 2
     m_Bits: 115
-  playerinput: {fileID: 0}
+  playerInput: {fileID: 0}
   _vfxPrefab: {fileID: 5374635135971334427, guid: 2d0a7f0f40107d045a4209cf6778569b, type: 3}
   _vfxContainer: {fileID: 948372869}
   _castPoint: {fileID: 1170133846}

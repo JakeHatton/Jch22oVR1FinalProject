@@ -253,8 +253,8 @@ MonoBehaviour:
   m_UIInfos: {fileID: 114340500867371532}
   m_CustomAttributes: []
   m_ParameterInfo:
-  - name: resolution
-    path: resolution
+  - name: Resolution
+    path: Resolution
     tooltip: 
     space: -1
     spaceable: 0
@@ -269,8 +269,8 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: position texture
-    path: position texture
+  - name: PositionsTexture
+    path: PositionsTexture
     tooltip: 
     space: -1
     spaceable: 0
@@ -285,8 +285,8 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: particle color
-    path: particle color
+  - name: ParticleColor
+    path: ParticleColor
     tooltip: 
     space: -1
     spaceable: 0
@@ -301,8 +301,8 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: particle texture
-    path: particle texture
+  - name: ParticleTexture
+    path: ParticleTexture
     tooltip: 
     space: -1
     spaceable: 0
@@ -317,8 +317,8 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: particle size
-    path: particle size
+  - name: Size
+    path: Size
     tooltip: 
     space: -1
     spaceable: 0
@@ -1519,7 +1519,7 @@ MonoBehaviour:
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661614563}
-  m_ExposedName: resolution
+  m_ExposedName: Resolution
   m_Exposed: 1
   m_Order: 0
   m_Category: 
@@ -1764,7 +1764,7 @@ MonoBehaviour:
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661614572}
-  m_ExposedName: position texture
+  m_ExposedName: PositionsTexture
   m_Exposed: 1
   m_Order: 1
   m_Category: 
@@ -2777,7 +2777,7 @@ MonoBehaviour:
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661614625}
-  m_ExposedName: particle color
+  m_ExposedName: ParticleColor
   m_Exposed: 1
   m_Order: 2
   m_Category: 
@@ -3578,7 +3578,7 @@ MonoBehaviour:
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661614678}
-  m_ExposedName: particle texture
+  m_ExposedName: ParticleTexture
   m_Exposed: 1
   m_Order: 3
   m_Category: 
@@ -3659,7 +3659,7 @@ MonoBehaviour:
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661614680}
-  m_ExposedName: particle size
+  m_ExposedName: Size
   m_Exposed: 1
   m_Order: 4
   m_Category: 

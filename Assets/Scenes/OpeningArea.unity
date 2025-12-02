@@ -3901,7 +3901,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 831999328461199527, guid: 7588f25e91832674c8f4fdc8f702fc29, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.061
+      value: -0.003
       objectReference: {fileID: 0}
     - target: {fileID: 831999328461199527, guid: 7588f25e91832674c8f4fdc8f702fc29, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3909,11 +3909,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 831999328461199527, guid: 7588f25e91832674c8f4fdc8f702fc29, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.538
+      value: 2.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755753219160592784, guid: 7588f25e91832674c8f4fdc8f702fc29, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.002
       objectReference: {fileID: 0}
     - target: {fileID: 4755753219160592784, guid: 7588f25e91832674c8f4fdc8f702fc29, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2
+      value: 3.096
       objectReference: {fileID: 0}
     - target: {fileID: 6121325341287629000, guid: 7588f25e91832674c8f4fdc8f702fc29, type: 3}
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].time

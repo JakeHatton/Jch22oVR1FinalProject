@@ -3901,23 +3901,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 831999328461199527, guid: 7588f25e91832674c8f4fdc8f702fc29, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.003
+      value: -0.075
       objectReference: {fileID: 0}
     - target: {fileID: 831999328461199527, guid: 7588f25e91832674c8f4fdc8f702fc29, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.148
+      value: -0.142
       objectReference: {fileID: 0}
     - target: {fileID: 831999328461199527, guid: 7588f25e91832674c8f4fdc8f702fc29, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.39
+      value: 1.746
       objectReference: {fileID: 0}
     - target: {fileID: 4755753219160592784, guid: 7588f25e91832674c8f4fdc8f702fc29, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.002
+      value: 0.066
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755753219160592784, guid: 7588f25e91832674c8f4fdc8f702fc29, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.023
       objectReference: {fileID: 0}
     - target: {fileID: 4755753219160592784, guid: 7588f25e91832674c8f4fdc8f702fc29, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.096
+      value: 1.684
       objectReference: {fileID: 0}
     - target: {fileID: 6121325341287629000, guid: 7588f25e91832674c8f4fdc8f702fc29, type: 3}
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].time
@@ -4234,7 +4238,7 @@ MonoBehaviour:
   _radius: 10
   _maxRadius: 10
   _minRadius: 1
-  _pointsPerScan: 40
+  _pointsPerScan: 100
   _range: 10
   resolution: 100
 --- !u!65 &1601007422
@@ -4721,7 +4725,7 @@ GameObject:
   - component: {fileID: 1855457757}
   - component: {fileID: 1855457756}
   - component: {fileID: 1855457755}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -12,3 +12,10 @@ The code wasn't working the day before presentations and somehow I fixed it like
 
 Screenshots of your project
 
+<img width="1669" height="732" alt="Screenshot 2025-12-06 001247" src="https://github.com/user-attachments/assets/f4cd7195-4673-4338-96d7-048be0a70e78" />
+
+<img width="1467" height="821" alt="Screenshot 2025-12-08 172103" src="https://github.com/user-attachments/assets/8fe46c89-87d4-4911-ba62-db2be504ca8d" />
+
+<img width="1610" height="741" alt="Screenshot 2025-12-08 171824" src="https://github.com/user-attachments/assets/b02e4790-5f5e-4915-824a-d5556093a78d" />
+
+<img width="1501" height="897" alt="Screenshot 2025-12-08 171335" src="https://github.com/user-attachments/assets/d19c4097-a54d-4b23-a1e4-4637f8f3a649" />
